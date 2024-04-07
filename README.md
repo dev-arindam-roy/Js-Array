@@ -113,3 +113,16 @@ let joinStringFormat3 = arr.join('-');
 
 console.log(joinStringFormat1, joinStringFormat2, joinStringFormat3);
 ```
+> **Array LastIndexOf**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+let arr2 = ["android", "electron", "nest", "jsp", "react", "node", "mongodb"];
+let arr3 = ["mysql", "postgresql", "firebase", "redis"]
+
+let concatArrs = arr.concat(arr2,arr3);
+console.log(concatArrs);
+/*
+["php", "asp", "jsp", "react", "node", "laravel", "firebase", "android", "electron", "nest", "jsp", "react", "node", "mongodb", "mysql", "postgresql", "firebase", "redis"]
+*/
+console.log(concatArrs.lastIndexOf('react')); //11
+```
