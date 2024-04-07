@@ -139,3 +139,20 @@ console.log(numArr.reverse());
 console.log(arr.sort());
 console.log(numArr.sort());
 ```
+> **Remove First & Last element from Array**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+
+console.log(arr.pop()); //remove last array elemet
+console.log(arr);
+console.log(arr.shift()); //remove first array element
+console.log(arr);
+
+/*
+OUTPUT:
+"firebase"
+["php", "asp", "jsp", "react", "node", "laravel"]
+"php"
+["asp", "jsp", "react", "node", "laravel"]
+*/
+```
