@@ -63,4 +63,18 @@ let findAgeArr = ageArr.filter((age) => {
   return (age > 25) ? age : null;
 });
 console.log(findAgeArr);
-``` 
+```
+> **Array Find - First, FirstIndex, Last, LastIndex**
+```js
+let findFirstAge = ageArr.find((age) => (age > 25) ? age : null );
+console.log(findFirstAge);
+
+let findFirstAgeIndex = ageArr.findIndex((age) => (age > 25) ? age : null );
+console.log(findFirstAgeIndex);
+
+let findLastAge = ageArr.findLast((age) => (age > 25) ? age : null );
+console.log(findLastAge);
+
+let findLastAgeIndex = ageArr.findLastIndex((age) => (age > 25) ? age : null );
+console.log(findLastAgeIndex);
+```
