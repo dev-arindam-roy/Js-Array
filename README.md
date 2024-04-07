@@ -163,3 +163,18 @@ let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
 arr.unshift("android", "reactNative");
 console.log(arr);
 ```
+> **Get all array element**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+console.log(arr.valueOf());
+```
+> **Update element within an Array**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+let newArr1 = arr.with(2, "android");
+console.log(newArr1);
+let newArr2 = arr.with(2, "mongodb");
+console.log(newArr2);
+let newArr3 = arr.with(20, "notFoundEle"); //index not found, getting error
+console.log(newArr3); 
+```
