@@ -110,8 +110,9 @@ let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
 let joinStringFormat1 = arr.join(',');
 let joinStringFormat2 = arr.join('/');
 let joinStringFormat3 = arr.join('-');
+let joinString = arr.toString();
 
-console.log(joinStringFormat1, joinStringFormat2, joinStringFormat3);
+console.log(joinStringFormat1, joinStringFormat2, joinStringFormat3, joinString);
 ```
 > **Array LastIndexOf**
 ```js
