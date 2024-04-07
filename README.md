@@ -66,6 +66,8 @@ console.log(findAgeArr);
 ```
 > **Array Find - First, FirstIndex, Last, LastIndex**
 ```js
+let ageArr = [12, 13, 14, 16, 22, 32, 61, 65, 70, 90];
+
 let findFirstAge = ageArr.find((age) => (age > 25) ? age : null );
 console.log(findFirstAge);
 
