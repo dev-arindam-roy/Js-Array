@@ -157,3 +157,9 @@ OUTPUT:
 ["asp", "jsp", "react", "node", "laravel"]
 */
 ```
+> **Add element in first in an array**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+arr.unshift("android", "reactNative");
+console.log(arr);
+```
