@@ -52,3 +52,15 @@ arr2Entries.forEach((v) => {
  console.log(`Index:${v.at()} => ${v.at(-1)}`);
 });
 ```
+> **Find users who have age of greater than 25**
+```js
+/* Type 1 */
+let findAgeArr = ageArr.filter((age) => (age > 25) ? age : null);
+console.log(findAgeArr);
+
+/* Type 2 */
+let findAgeArr = ageArr.filter((age) => {
+  return (age > 25) ? age : null;
+});
+console.log(findAgeArr);
+``` 
