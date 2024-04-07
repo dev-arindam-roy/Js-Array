@@ -80,3 +80,11 @@ console.log(findLastAge);
 let findLastAgeIndex = ageArr.findLastIndex((age) => (age > 25) ? age : null );
 console.log(findLastAgeIndex);
 ```
+> **Arrays within an array => single unique Array**
+```js
+let arrx = [[1,2],[2,3],[2,6]];
+let oneArr = arrx.flat();
+console.log(oneArr); //[1, 2, 2, 3, 2, 6]
+let uniqueOneArr = [...new Set(oneArr)];
+console.log(uniqueOneArr); //[1, 2, 3, 6]
+```
