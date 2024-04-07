@@ -103,3 +103,13 @@ console.log(Array.isArray(ageArr)); //true
 console.log(Array.isArray(arr)); //true
 console.log(Array.isArray(obj)); //false
 ```
+> **Array Join into String**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+
+let joinStringFormat1 = arr.join(',');
+let joinStringFormat2 = arr.join('/');
+let joinStringFormat3 = arr.join('-');
+
+console.log(joinStringFormat1, joinStringFormat2, joinStringFormat3);
+```
