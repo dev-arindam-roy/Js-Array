@@ -88,3 +88,18 @@ console.log(oneArr); //[1, 2, 2, 3, 2, 6]
 let uniqueOneArr = [...new Set(oneArr)];
 console.log(uniqueOneArr); //[1, 2, 3, 6]
 ```
+> **Check IsArray**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+let ageArr = [12, 13, 14, 16, 22, 32, 61, 65, 70, 90];
+
+let obj = {
+  name: "Arindam",
+  skill: "Developer",
+  exp: 14
+}
+
+console.log(Array.isArray(ageArr)); //true
+console.log(Array.isArray(arr)); //true
+console.log(Array.isArray(obj)); //false
+```
