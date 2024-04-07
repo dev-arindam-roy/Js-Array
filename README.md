@@ -126,3 +126,16 @@ console.log(concatArrs);
 */
 console.log(concatArrs.lastIndexOf('react')); //11
 ```
+> **Array asc sort & reverse**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+let numArr = [12, 13, 14, 16, 22, 32, 61, 65, 70, 90];
+
+/*Reverse order not desending*/
+console.log(arr.reverse());
+console.log(numArr.reverse());
+
+/* ASC order*/
+console.log(arr.sort());
+console.log(numArr.sort());
+```
