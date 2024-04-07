@@ -175,6 +175,34 @@ let newArr1 = arr.with(2, "android");
 console.log(newArr1);
 let newArr2 = arr.with(2, "mongodb");
 console.log(newArr2);
+/*
+OUTPUT:
+["php", "asp", "android", "react", "node", "laravel", "firebase"]
+["php", "asp", "mongodb", "react", "node", "laravel", "firebase"]
+*/
+
 let newArr3 = arr.with(20, "notFoundEle"); //index not found, getting error
 console.log(newArr3); 
+```
+> **Remove element from an Array**
+```js
+let arr = ["php", "asp", "jsp", "react", "node", "laravel", "firebase"];
+
+console.log(arr);
+
+/*remove 'react' element from array*/
+let findIndex1 = arr.indexOf("react");
+
+if (findIndex1 > 0) {
+  arr.splice(findIndex1, 1);
+}
+console.log(arr);
+
+/*remove 'laravel' element from array*/
+let findIndex2 = arr.indexOf("laravel");
+
+if (findIndex2 > 0) {
+  arr.splice(findIndex2, 1);
+}
+console.log(arr);
 ```
